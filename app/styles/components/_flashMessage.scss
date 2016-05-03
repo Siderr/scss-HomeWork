@@ -1,0 +1,29 @@
+$flashMessageBorderRadius: 5px;
+$flashMessageBorderWidth: 1px;
+
+.flashMessage {
+  padding: $halfGutter;
+  background: red;
+  color: white;
+  border-radius: $flashMessageBorderRadius;
+  border: $flashMessageBorderWidth solid #B0383B;
+  font-weight: bold;
+  font-size:x-large;
+  font-family: sans-serif;
+}
+
+.flashMessage-note {
+  color:#5c5c5c;
+  background: #ffeebd;
+  border-color: #ffBB1a;
+}
+
+.flashMessage-success {
+  background: lightgreen;
+  color: white;
+  border-color: green;
+}
+
+.flashMessage span {
+  vertical-align: middle;
+}
